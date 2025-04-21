@@ -1,14 +1,13 @@
-import { NavLink, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Home } from "./page/Home";
 import { Header } from "./Header/Header";
-import { AboutPage } from "./page/about";
+import { AboutPage } from "../src/page/about/about";
 
 function App() {
   return (
     <>
       <Header></Header>
-      <Routes >
+      <Routes>
         <Route path="/" element={<AboutPage />} />
       </Routes>
     </>

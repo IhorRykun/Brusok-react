@@ -1,8 +1,14 @@
-import { NavLink } from "react-router-dom";
 import { Div } from "../DivContainer/div.styled";
-import { HeaderSection, List, StyledLink, Text } from "./Header.styled";
+import {
+  DivNavigation,
+  HeaderSection,
+  List,
+  StyledLink,
+  Text
+} from "./Header.styled";
 import { Logo } from "./Logo/Logo";
 import { ContainerFlexHeader } from "./Logo/Logo.styled";
+import { NavigationIcons } from "./navigationIcon/navigationIcon";
 
 export const Header = () => {
   return (
@@ -10,13 +16,16 @@ export const Header = () => {
       <Div>
         <ContainerFlexHeader>
           <Logo />
-          <Text>
-            Ми надійні партнери світі пиломатеріалів. Наші матеріали ідеально
-            підходять для будівництва, ремонту та оздоблення.
-            <span>
-              <br /> Ми працюємо згідно з принципів якості та професіоналізму.
-            </span>
-          </Text>
+          <DivNavigation>
+            <NavigationIcons />
+            <Text>
+              Ми надійні партнери світі пиломатеріалів. Наші матеріали ідеально
+              підходять для будівництва, ремонту та оздоблення.
+              <span>
+                <br /> Ми працюємо згідно з принципів якості та професіоналізму.
+              </span>
+            </Text>
+          </DivNavigation>
         </ContainerFlexHeader>
         <List>
           <li>

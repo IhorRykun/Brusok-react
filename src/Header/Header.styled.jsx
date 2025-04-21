@@ -31,12 +31,23 @@ export const Text = styled.p`
     margin-left: 120px;
   }
 `;
-export const SpanText = styled.span`
-`
-
+export const SpanText = styled.span``;
 
 export const StyledLink = styled(NavLink)`
   &.active {
     color: orange;
   }
+`;
+
+export const DivNavigation = styled.dvi`
+  margin-left: 340px;
+`;
+
+export const ButtonBasket = styled.button`
+  cursor: pointer;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  border: none;
+  outline: none;
 `;
