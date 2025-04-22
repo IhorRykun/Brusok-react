@@ -28,14 +28,24 @@ export const Text = styled.p`
   margin-left: auto;
 
   &::first-letter {
-    margin-left: 120px;
+    margin-left: 156px;
   }
 `;
-export const SpanText = styled.span``;
 
 export const StyledLink = styled(NavLink)`
+  padding: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &.active {
-    color: orange;
+    color: #c38f63;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #d9ac8d;
+    color: white;
+    outline: 1px solid #d9ac8d;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 `;
 
@@ -50,4 +60,14 @@ export const ButtonBasket = styled.button`
   height: 32px;
   border: none;
   outline: none;
+  &:hover {
+    color: #d9ac8d;
+    outline: none;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &:focus {
+    color: #d9ac8d;
+    outline: none;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 `;

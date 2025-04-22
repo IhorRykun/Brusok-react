@@ -1,28 +1,13 @@
-import { Div } from "../../DivContainer/div.styled";
-import woodPicture from "../../img/about/wood.jpg";
-import {
-  DivNatural,
-  FaArrowRightLongSVG,
-  ImgFirstAbout,
-  LinkNatural,
-  LinkNaturalSpan
-} from "./about.styled";
+import { Main } from "./Main/main";
 import { Service } from "./service/service";
+import { WheWe } from "./service/WhyWe/WhyWe";
 
 export const AboutPage = () => {
   return (
-    <Div>
-      <ImgFirstAbout src={woodPicture} alt="wood_picture" />
-      <DivNatural>
-        <LinkNatural>
-          Натуральні матеріали для довговічних <br />
-          рішень
-          <LinkNaturalSpan>
-            <FaArrowRightLongSVG />
-          </LinkNaturalSpan>
-        </LinkNatural>
-      </DivNatural>
+    <>
+      <Main />
       <Service />
-    </Div>
+      <WheWe />
+    </>
   );
 };

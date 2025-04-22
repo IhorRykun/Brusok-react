@@ -1,5 +1,9 @@
 import styled from "@emotion/styled/macro";
 
+export const SectionService = styled.section`
+  padding-top: 276px;
+`;
+
 export const ServiceText = styled.p`
   width: 620px;
   font-size: 20px;
@@ -12,6 +16,9 @@ export const ServiceText = styled.p`
 //   width: 400px;
 // `;
 
-export const DivImg = styled.div`
+export const ListImg = styled.ul`
   display: flex;
+  justify-content: space-between;
 `;
+
+export const ItemImg = styled.li``;

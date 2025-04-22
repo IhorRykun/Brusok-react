@@ -1,4 +1,5 @@
 import styled from "@emotion/styled/macro";
+import { Link } from "react-router-dom";
 
 export const ListIconsNavigation = styled.ul`
   display: flex;
@@ -21,10 +22,25 @@ export const ItemIconsNavigation = styled.li`
     margin-right: 0;
   }
 
-  &:hover {
-    outline: 2px solid orange;
-    border: 1px solid orange;
+  &:hover,
+  &:focus {
+    color: #d9ac8d;
+    border: 1px solid #d9ac8d;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
   }
 `;
 
-// export const
+export const LinkSVG = styled(Link)`
+  &:hover {
+    color: #d9ac8d;
+    outline: none;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  &:focus {
+    color: #d9ac8d;
+    outline: #d9ac8d;
+    transform: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+`;

@@ -1,4 +1,4 @@
-import { Div } from "../DivContainer/div.styled";
+import { Container } from "../DivContainer/div.styled";
 import {
   DivNavigation,
   HeaderSection,
@@ -13,7 +13,7 @@ import { NavigationIcons } from "./navigationIcon/navigationIcon";
 export const Header = () => {
   return (
     <HeaderSection>
-      <Div>
+      <Container>
         <ContainerFlexHeader>
           <Logo />
           <DivNavigation>
@@ -21,9 +21,7 @@ export const Header = () => {
             <Text>
               Ми надійні партнери світі пиломатеріалів. Наші матеріали ідеально
               підходять для будівництва, ремонту та оздоблення.
-              <span>
-                <br /> Ми працюємо згідно з принципів якості та професіоналізму.
-              </span>
+              <br /> Ми працюємо згідно з принципів якості та професіоналізму.
             </Text>
           </DivNavigation>
         </ContainerFlexHeader>
@@ -41,7 +39,7 @@ export const Header = () => {
             <StyledLink to="delivery">Логічтичні послуги</StyledLink>
           </li>
         </List>
-      </Div>
+      </Container>
     </HeaderSection>
   );
 };

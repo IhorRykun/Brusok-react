@@ -1,6 +1,16 @@
 import styled from "@emotion/styled";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
+
+
+
+
+
+export const SectionMain = styled.section`
+
+
+`
+
 export const ImgFirstAbout = styled.img`
   margin-top: 19px;
 `;
