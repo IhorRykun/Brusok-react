@@ -1,3 +1,4 @@
+import { ContactForm } from "./ContactForm/ContactForm";
 import { Main } from "./Main/main";
 import { Service } from "./service/service";
 import { WheWe } from "./service/WhyWe/WhyWe";
@@ -8,6 +9,7 @@ export const AboutPage = () => {
       <Main />
       <Service />
       <WheWe />
+      <ContactForm />
     </>
   );
 };

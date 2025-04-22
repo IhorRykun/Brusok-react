@@ -56,6 +56,16 @@ export const WheWe = () => {
               пиломатеріалів.
             </RightText>
           </RightItem>
+          <RightItem>
+            <RightTitle>Наша міссія </RightTitle>
+            <RightText>
+              Наша місія — забезпечити клієнтів якісними та надійними
+              матеріалами, які відповідають найвищим стандартам, за доступними
+              цінами. Завдяки професійному підходу, індивідуальному сервісу та
+              швидкій доставці, Brusok є надійним партнером у світі
+              пиломатеріалів.
+            </RightText>
+          </RightItem>
         </RightList>
       </DivContainerFlex>
     </SectionWheWe>
