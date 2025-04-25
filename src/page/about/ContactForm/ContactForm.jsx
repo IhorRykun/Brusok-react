@@ -1,10 +1,18 @@
-import { Container } from "../../../DivContainer/div.styled";
+import { Container } from "../../../DivContainer/DivContainer";
 import { Title } from "../../../TitleH2/TitleH2.styled";
 import {
+  Button,
   DivContainerFrom,
+  Form,
+  FormFlex,
+  FormFlexLeft,
+  FormFlexRight,
   Input,
+  InputCheck,
   Label,
-  SectionForm
+  LabelCheck,
+  SectionForm,
+  Textarea
 } from "./ContactForm,styled";
 
 export const ContactForm = () => {
@@ -13,25 +21,36 @@ export const ContactForm = () => {
       <Container>
         <DivContainerFrom>
           <Title style={{ textAlign: "center" }}>Звʼяжіться з нами</Title>
-          <form action="submit">
-            <Label for="usrName">
-              Ім'я
-              <Input type="text" name="name" id="usrName" />
-            </Label>
-            <Label for="Email">
-              Email
-              <Input type="Email" id="Email" />
-            </Label>
-            <Label for="tel">
-              Телефон
-              <Input type="tel" id="tel" />
-            </Label>
-            <Label for="userText">
-              повідмолення
-              <textarea style={{ resize: "none" }} type="text" id="userText" />
-            </Label>
-            <button>надіслати</button>
-          </form>
+          <Form action="submit">
+            <FormFlex>
+              <FormFlexLeft>
+                <Label for="usrName">Ім'я</Label>
+                <Input
+                  type="text"
+                  name="name"
+                  id="usrName"
+                  placeholder="Ваше ім'я"
+                />
+                <Label for="Email">Email</Label>
+                <Input type="Email" id="Email" placeholder="Ваш @Email" />
+                <LabelCheck>
+                  Я даю згоду на передачу та обробку моїх персональних даних *
+                  <InputCheck type="checkbox" />
+                </LabelCheck>
+                <Button>надіслати</Button>
+              </FormFlexLeft>
+              <FormFlexRight>
+                <Label for="tel">Телефон</Label>
+                <Input type="tel" id="tel" placeholder="380" />
+                <Label for="userText">Повідмолення</Label>
+                <Textarea
+                  type="text"
+                  id="userText"
+                  placeholder="Ваше повідомлення (необовʼязково) "
+                />
+              </FormFlexRight>
+            </FormFlex>
+          </Form>
         </DivContainerFrom>
       </Container>
     </SectionForm>

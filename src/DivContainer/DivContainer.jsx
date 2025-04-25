@@ -1,5 +1,5 @@
-import { Div } from "./div.styled";
+import { DivContainer } from "./div.styled";
 
-export const Div = () => {
-  return <Div></Div>;
+export const Container = () => {
+  return <DivContainer></DivContainer>;
 };

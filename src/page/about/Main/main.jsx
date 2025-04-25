@@ -1,4 +1,4 @@
-import { Container } from "../../../DivContainer/div.styled";
+import { Container } from "../../../DivContainer/DivContainer";
 import woodPicture from "../../../img/about/wood.jpg";
 import {
   DivNatural,

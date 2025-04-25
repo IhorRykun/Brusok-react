@@ -1,4 +1,4 @@
-import { Container } from "../DivContainer/div.styled";
+import { Container } from "../DivContainer/DivContainer";
 import {
   DivNavigation,
   HeaderSection,

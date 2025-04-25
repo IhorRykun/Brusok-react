@@ -49,7 +49,7 @@ export const StyledLink = styled(NavLink)`
   }
 `;
 
-export const DivNavigation = styled.dvi`
+export const DivNavigation = styled.div`
   margin-left: 340px;
 `;
 

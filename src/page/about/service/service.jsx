@@ -8,7 +8,7 @@ import {
 import Img1 from "../../../img/about/service/1.png";
 import Img2 from "../../../img/about/service/2.png";
 import { Link } from "react-router-dom";
-import { Container } from "../../../DivContainer/div.styled";
+import { Container } from "../../../DivContainer/DivContainer";
 
 export const Service = () => {
   return (
