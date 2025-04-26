@@ -1,28 +1,93 @@
 import { Link } from "react-router-dom";
 import { Container } from "../DivContainer/DivContainer";
+import {
+  DivFooter,
+  FooterItem,
+  FooterList,
+  IconFaceBoock,
+  IconInstagram,
+  IconTelegram,
+  ItemAddress,
+  ListAddress,
+  SectionFooter,
+  SocialItem,
+  SocialLink,
+  SocialList,
+  SocialTitle
+} from "./Footer.styled";
+import { LuPhone } from "react-icons/lu";
+import { TfiLocationPin } from "react-icons/tfi";
+import { AiTwotoneMail } from "react-icons/ai";
 
 export const Footer = () => {
-  <footer>
-    <Container>
-      <nav>
-        <ul>
-          <li>
-            <Link> Про нас </Link>
-          </li>
-          <li>
-            <Link> Пиломатеріали</Link>
-          </li>
-          <li>
-            <Link> Покрівельні роботи</Link>
-          </li>
-          <li>
-            <Link>Доставка</Link>
-          </li>
-          <li>
-            <Link>Контакти</Link>
-          </li>
-        </ul>
-      </nav>
-    </Container>
-  </footer>;
+  return (
+    <SectionFooter>
+      <Container>
+        <DivFooter>
+          <FooterList>
+            <FooterItem>
+              <SocialLink> Про нас </SocialLink>
+            </FooterItem>
+            <FooterItem>
+              <SocialLink> Пиломатеріали</SocialLink>
+            </FooterItem>
+            <FooterItem>
+              <SocialLink> Покрівельні роботи</SocialLink>
+            </FooterItem>
+            <FooterItem>
+              <SocialLink>Доставка</SocialLink>
+            </FooterItem>
+            <FooterItem>
+              <SocialLink>Контакти</SocialLink>
+            </FooterItem>
+          </FooterList>
+          <ListAddress>
+            <ItemAddress>
+              <Link>
+                <LuPhone />
+                +38 (097) 77 28 371 <br />
+                +38 (097) 87 49 673
+              </Link>
+            </ItemAddress>
+            <ItemAddress>
+              <address>
+                <TfiLocationPin />
+                c. Лісові Гринівці, вул. Центральна
+              </address>
+            </ItemAddress>
+            <ItemAddress>
+              <Link>
+                <AiTwotoneMail />
+                brusok.khm@gmail.com
+              </Link>
+            </ItemAddress>
+          </ListAddress>
+          <div>
+            <SocialTitle>Соціальні мережі</SocialTitle>
+            <SocialList>
+              <SocialItem>
+                <SocialLink
+                  target="_blank"
+                  to="https://www.instagram.com/brusok.khm/">
+                  <IconInstagram />
+                </SocialLink>
+              </SocialItem>
+              <SocialItem>
+                <SocialLink
+                  target="_blank"
+                  to="https://www.facebook.com/Brusok.khm/?locale=uk_UA">
+                  <IconFaceBoock />
+                </SocialLink>
+              </SocialItem>
+              <SocialItem>
+                <SocialLink target="_blank">
+                  <IconTelegram />
+                </SocialLink>
+              </SocialItem>
+            </SocialList>
+          </div>
+        </DivFooter>
+      </Container>
+    </SectionFooter>
+  );
 };

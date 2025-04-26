@@ -64,7 +64,7 @@ export const Label = styled.label`
 
 export const Textarea = styled.textarea`
   width: 451px;
-  font-weight: 300px;
+  font-weight: 500px;
   font-size: 13px;
   padding: 25px 13px 25px 13px;
   /* border-radius: 20px; */

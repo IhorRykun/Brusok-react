@@ -13,7 +13,7 @@ import {
   LabelCheck,
   SectionForm,
   Textarea
-} from "./ContactForm,styled";
+} from "./ContactForm.styled";
 
 export const ContactForm = () => {
   return (

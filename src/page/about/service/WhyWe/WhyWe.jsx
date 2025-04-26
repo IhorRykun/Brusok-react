@@ -8,9 +8,9 @@ import {
   RightTextSpan,
   RightTitle,
   SectionWheWe
-} from "./WheWe.styled";
+} from "./WhyWe.styled";
 
-export const WheWe = () => {
+export const WhyWe = () => {
   return (
     <SectionWheWe>
       <DivContainerFlex>
