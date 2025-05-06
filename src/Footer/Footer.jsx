@@ -9,7 +9,9 @@ import {
   IconTelegram,
   ItemAddress,
   ListAddress,
+  PrivateContainer,
   SectionFooter,
+  SocialContainer,
   SocialItem,
   SocialLink,
   SocialList,
@@ -26,16 +28,16 @@ export const Footer = () => {
         <DivFooter>
           <FooterList>
             <FooterItem>
-              <SocialLink> Про нас </SocialLink>
+              <SocialLink to="/"> Про нас </SocialLink>
             </FooterItem>
             <FooterItem>
-              <SocialLink> Пиломатеріали</SocialLink>
+              <SocialLink to="/wood"> Пиломатеріали</SocialLink>
             </FooterItem>
             <FooterItem>
-              <SocialLink> Покрівельні роботи</SocialLink>
+              <SocialLink to="/work"> Покрівельні роботи</SocialLink>
             </FooterItem>
             <FooterItem>
-              <SocialLink>Доставка</SocialLink>
+              <SocialLink to="/delivery">Доставка</SocialLink>
             </FooterItem>
             <FooterItem>
               <SocialLink>Контакти</SocialLink>
@@ -62,7 +64,7 @@ export const Footer = () => {
               </Link>
             </ItemAddress>
           </ListAddress>
-          <div>
+          <SocialContainer>
             <SocialTitle>Соціальні мережі</SocialTitle>
             <SocialList>
               <SocialItem>
@@ -85,8 +87,11 @@ export const Footer = () => {
                 </SocialLink>
               </SocialItem>
             </SocialList>
-          </div>
+          </SocialContainer>
         </DivFooter>
+        <PrivateContainer>
+          <Link>Всі права захищено | Політика конфіденційності</Link>
+        </PrivateContainer>
       </Container>
     </SectionFooter>
   );

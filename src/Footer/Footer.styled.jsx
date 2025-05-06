@@ -15,7 +15,9 @@ export const DivFooter = styled.div`
   padding-top: 34px;
 `;
 
-export const FooterList = styled.ul``;
+export const FooterList = styled.ul`
+  margin-right: 52px;
+`;
 
 export const FooterItem = styled.li`
   margin-bottom: 6px;
@@ -23,6 +25,10 @@ export const FooterItem = styled.li`
   &:last-child {
     margin-bottom: 0;
   }
+`;
+
+export const SocialContainer = styled.div`
+  margin-left: 52px;
 `;
 
 export const SocialList = styled.ul`
@@ -70,5 +76,16 @@ export const ListAddress = styled.ul`
 
 export const ItemAddress = styled.li`
   display: flex;
-align-items:center;
+  align-items: center;
+`;
+
+export const PrivateContainer = styled.div`
+  margin-top: 52px;
+  margin-left: 130px;
+`;
+
+export const PrivateLink = styled(Link)`
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 `;
