@@ -10,7 +10,7 @@ import { Logo } from "./Logo/Logo";
 import { ContainerFlexHeader } from "./Logo/Logo.styled";
 import { NavigationIcons } from "./navigationIcon/navigationIcon";
 
-export const Header = () => {
+export const HeaderAbout = () => {
   return (
     <HeaderSection>
       <Container>

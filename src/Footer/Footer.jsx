@@ -22,6 +22,7 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { AiTwotoneMail } from "react-icons/ai";
 
 export const Footer = () => {
+  //
   return (
     <SectionFooter>
       <Container>
@@ -40,7 +41,7 @@ export const Footer = () => {
               <SocialLink to="/delivery">Доставка</SocialLink>
             </FooterItem>
             <FooterItem>
-              <SocialLink>Контакти</SocialLink>
+              <SocialLink to="/contacts">Контакти</SocialLink>
             </FooterItem>
           </FooterList>
           <ListAddress>
