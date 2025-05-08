@@ -6,23 +6,11 @@ export const Button = styled.button`
   border: 1px solid rgba(255, 255, 255, 1);
   cursor: pointer;
   background-color: transparent;
-`;
-
-export const WoodList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-export const WoodItem = styled.li`
-  margin: 0;
-  width: 586px;
-
-  &:nth-child(2n + 1) {
-    margin-right: 22px;
-  }
-`;
-
-export const Img = styled.img`
-  width: 586px;
+  color: rgba(241, 242, 244, 1);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: (-50%, -50%);
+  font-family: Roboto sans-serif;
 `;

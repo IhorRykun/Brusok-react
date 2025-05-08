@@ -4,8 +4,9 @@ import "./App.css";
 import { AboutPage } from "../src/page/about/about";
 import { DeliveryPage } from "./page/delivery";
 import { WoodsPage } from "./page/Woods/Woods";
-import { WorkPage } from "./page/work";
+
 import { Contacts } from "./page/Contacts";
+import { WorkPage } from "./page/Work/work";
 
 function App() {
   return (

@@ -15,7 +15,7 @@ export const Main = () => {
       <Container>
         <ImgFirstAbout src={woodPicture} alt="wood_picture" />
         <DivNatural>
-          <LinkNatural>
+          <LinkNatural to="/wood">
             Натуральні матеріали для довговічних <br />
             рішень
             <LinkNaturalSpan>

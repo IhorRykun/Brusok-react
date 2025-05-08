@@ -7,6 +7,7 @@ export const DivContainer = styled.div`
   min-width: 320px;
   width: 100vw;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 
   @media screen and (min-width: 420px) {
     width: 420px;

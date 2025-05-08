@@ -20,10 +20,6 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #a5613c; /* додає паддінги навколу скролу */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 h1,
 h2,
 h3,

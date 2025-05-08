@@ -1,12 +1,15 @@
 import { Container } from "../../../../DivContainer/DivContainer";
 import { TitleH2 } from "../../../../TitleH2/TitleH2";
 import {
-  Button,
+  ContainerImg,
   Img,
+  Text,
+  TextTitle,
   WoodItem,
-  WoodList
-} from "./ButtonAbout/ButtonAbout.styled";
-import { Text, WoodMain } from "./Main.styled";
+  WoodList,
+  WoodMain
+} from "./Main.styled";
+import { Button } from "./ButtonAbout/ButtonAbout.styled";
 import img1 from "../../../../img/wood/1.png";
 import img2 from "../../../../img/wood/2.png";
 import img3 from "../../../../img/wood/3.png";
@@ -27,30 +30,30 @@ export const Main = () => {
             тільки якісну соснову деревину, щоб забезпечити надійність і
             екологічність нашої продукції.
           </Text>
-          <div>
+          <ContainerImg>
             <WoodList>
               <WoodItem>
                 <Img src={img1} alt="img1" />
-                <h3>Обрізна дошка</h3>
+                <TextTitle>Обрізна дошка</TextTitle>
                 <Button>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img2} alt="img1" />
-                <h3>Обрізна Рейка</h3>
+                <TextTitle>Обрізна Рейка</TextTitle>
                 <Button>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img3} alt="img1" />
-                <h3>Обрізний брус</h3>
+                <TextTitle>Обрізний брус</TextTitle>
                 <Button>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img4} alt="img1" />
-                <h3>Вагонка</h3>
+                <TextTitle style={{ marginLeft: 20 }}>Вагонка</TextTitle>
                 <Button>Детальніше</Button>
               </WoodItem>
             </WoodList>
-          </div>
+          </ContainerImg>
         </Container>
       </WoodMain>
     </main>
