@@ -1,9 +1,11 @@
+import { ContactForm } from "../ContactForm/ContactForm";
 import { Footer } from "../Footer/Footer";
-import { ContactForm } from "./about/ContactForm/ContactForm";
+import { HeaderWood } from "./Woods/Header/Header";
 
 export const Contacts = () => {
   return (
     <>
+      <HeaderWood />
       <h2>Контактна інформація </h2>
 
       <ContactForm />

@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { SlSocialInstagram } from "react-icons/sl";
 import { SiFacebook } from "react-icons/si";
 import { PiTelegramLogoBold } from "react-icons/pi";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { AiTwotoneMail } from "react-icons/ai";
 import { LuPhone } from "react-icons/lu";
 import { TfiLocationPin } from "react-icons/tfi";
@@ -32,6 +32,17 @@ export const FooterItem = styled.li`
 
 export const SocialContainer = styled.div`
   margin-left: 52px;
+`;
+
+export const LinkPage = styled(NavLink)`
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto" sans-serif;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &.active {
+    color: #c38f63;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 `;
 
 export const SocialList = styled.ul`

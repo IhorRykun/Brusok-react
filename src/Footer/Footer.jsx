@@ -12,6 +12,7 @@ import {
   IconTelegram,
   IconTell,
   ItemAddress,
+  LinkPage,
   ListAddress,
   PrivateContainer,
   PrivateLink,
@@ -32,19 +33,19 @@ export const Footer = () => {
         <DivFooter>
           <FooterList>
             <FooterItem>
-              <SocialLink to="/"> Про нас </SocialLink>
+              <LinkPage to="/"> Про нас </LinkPage>
             </FooterItem>
             <FooterItem>
-              <SocialLink to="/wood"> Пиломатеріали</SocialLink>
+              <LinkPage to="/wood"> Пиломатеріали</LinkPage>
             </FooterItem>
             <FooterItem>
-              <SocialLink to="/work"> Покрівельні роботи</SocialLink>
+              <LinkPage to="/work"> Покрівельні роботи</LinkPage>
             </FooterItem>
             <FooterItem>
-              <SocialLink to="/delivery">Доставка</SocialLink>
+              <LinkPage to="/delivery">Доставка</LinkPage>
             </FooterItem>
             <FooterItem>
-              <SocialLink to="/contacts">Контакти</SocialLink>
+              <LinkPage to="/contacts">Контакти</LinkPage>
             </FooterItem>
           </FooterList>
           <ListAddress>
