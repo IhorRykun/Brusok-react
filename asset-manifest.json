@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Brusok-react/static/css/main.027942c8.css",
+    "main.js": "/Brusok-react/static/js/main.8d353f42.js",
+    "static/js/453.1dc5b4b5.chunk.js": "/Brusok-react/static/js/453.1dc5b4b5.chunk.js",
+    "static/media/4.png": "/Brusok-react/static/media/4.f0716fc8642f8ab44b35.png",
+    "static/media/1.png": "/Brusok-react/static/media/1.f7205523162e47f3b48d.png",
+    "static/media/3.png": "/Brusok-react/static/media/3.5c3f7f149a5876cc6d7b.png",
+    "static/media/2.png": "/Brusok-react/static/media/2.2d2df6e238760bef8493.png",
+    "static/media/wood.jpg": "/Brusok-react/static/media/wood.b0fc8bfe4f628ca86a74.jpg",
+    "index.html": "/Brusok-react/index.html",
+    "main.027942c8.css.map": "/Brusok-react/static/css/main.027942c8.css.map",
+    "main.8d353f42.js.map": "/Brusok-react/static/js/main.8d353f42.js.map",
+    "453.1dc5b4b5.chunk.js.map": "/Brusok-react/static/js/453.1dc5b4b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.027942c8.css",
+    "static/js/main.8d353f42.js"
+  ]
+}
