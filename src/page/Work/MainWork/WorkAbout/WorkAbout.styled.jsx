@@ -17,9 +17,9 @@ export const TextAbout = styled.p`
   text-align: center;
   margin: 0 auto;
   margin-top: 39px;
+  font-size: 20;
+  font-weight: 300;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 400px;
 `;
 
 export const TitleH3 = styled.h3`
@@ -59,6 +59,9 @@ export const AdvantagesItemFlex = styled.li`
   list-style: block;
   margin-bottom: 6px;
   margin-left: 22px;
+  font-size: 20;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 
   &:last-child {
     margin-bottom: 0;
@@ -70,7 +73,7 @@ export const AdvantagesTitle = styled.h3`
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   letter-spacing: 10%;
-  font-weight: 600;
+  font-weight: 300;
   margin-bottom: 12px;
 `;
 
@@ -79,7 +82,7 @@ export const WhayWeTitle = styled.h3`
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 `;
 
 export const WhayWeList = styled.ul`
@@ -93,6 +96,11 @@ export const WhayWeItem = styled.li`
   list-style-type: disc;
   margin-bottom: 6px;
   margin-left: 14px;
+  font-size: 20;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  padding-left: 8px;
+  margin-left: 22px;
 
   &:last-child {
     margin-bottom: 0;

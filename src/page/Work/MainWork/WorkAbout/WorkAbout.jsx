@@ -110,7 +110,7 @@ export const WorkAbout = () => {
           </AdvantagesListFlex>
         </ProductItem>
       </ProductList>
-      <WhayWeTitle>Чому обирають нас</WhayWeTitle>
+      <WhayWeTitle>Чому обирають нас:</WhayWeTitle>
       <WhayWeList>
         <WhayWeItem>
           Професіоналізм і досвід: Наші фахівці мають багаторічний досвід і
