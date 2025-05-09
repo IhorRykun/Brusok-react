@@ -3,6 +3,9 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { SiFacebook } from "react-icons/si";
 import { PiTelegramLogoBold } from "react-icons/pi";
 import { Link } from "react-router-dom";
+import { AiTwotoneMail } from "react-icons/ai";
+import { LuPhone } from "react-icons/lu";
+import { TfiLocationPin } from "react-icons/tfi";
 
 export const SectionFooter = styled.section`
   margin-top: 54px;
@@ -62,11 +65,15 @@ export const IconTelegram = styled(PiTelegramLogoBold)`
 
 export const SocialLink = styled(Link)`
   padding: 4px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 `;
 
 export const SocialTitle = styled.h3`
   font-weight: 400px;
   font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 `;
 
 export const ListAddress = styled.ul`
@@ -77,6 +84,7 @@ export const ListAddress = styled.ul`
 export const ItemAddress = styled.li`
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 `;
 
 export const PrivateContainer = styled.div`
@@ -88,4 +96,36 @@ export const PrivateLink = styled(Link)`
   font-weight: 300;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+`;
+
+export const Address = styled.address`
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+`;
+
+export const AddressSpan = styled.span`
+  padding-left: 12px;
+`;
+
+export const PrivateLinkTel1 = styled(Link)`
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+`;
+
+export const IconEmail = styled(AiTwotoneMail)`
+  padding-top: 2px;
+  margin-right: 8px;
+`;
+
+export const IconTell = styled(LuPhone)`
+  margin-right: 8px;
+`;
+
+export const IconLocation = styled(TfiLocationPin)`
+  margin-right: 8px;
 `;

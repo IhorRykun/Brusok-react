@@ -21,4 +21,10 @@ export const ListImg = styled.ul`
   justify-content: space-between;
 `;
 
-export const ItemImg = styled.li``;
+export const ItemImg = styled.li`
+  width: 630px;
+`;
+
+export const Img = styled.img`
+  width: 100%;
+`;

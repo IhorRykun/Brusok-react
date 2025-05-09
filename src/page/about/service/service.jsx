@@ -1,5 +1,6 @@
 import { Title } from "../../../TitleH2/TitleH2.styled";
 import {
+  Img,
   ItemImg,
   ListImg,
   SectionService,
@@ -23,12 +24,12 @@ export const Service = () => {
         <ListImg>
           <ItemImg>
             <Link to="wood">
-              <img src={Img1} alt="wood" />
+              <Img src={Img1} alt="wood" />
             </Link>
           </ItemImg>
           <ItemImg>
             <Link to="work">
-              <img src={Img2} alt="man_Work" />
+              <Img src={Img2} alt="man_Work" />
             </Link>
           </ItemImg>
         </ListImg>
