@@ -14,7 +14,8 @@ import img1 from "../../../../img/wood/1.png";
 import img2 from "../../../../img/wood/2.png";
 import img3 from "../../../../img/wood/3.png";
 import img4 from "../../../../img/wood/4.png";
-export const Main = () => {
+import { Modal } from "../../../../Modal/Modal";
+export const Main = ({ onClick }) => {
   return (
     <main>
       <WoodMain>
@@ -35,12 +36,12 @@ export const Main = () => {
               <WoodItem>
                 <Img src={img1} alt="img1" />
                 <TextTitle>Обрізна дошка</TextTitle>
-                <Button>Детальніше</Button>
+                <Button onClick={onClick}>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img2} alt="img1" />
                 <TextTitle>Обрізна Рейка</TextTitle>
-                <Button>Детальніше</Button>
+                <Button onClick={onClick}>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img3} alt="img1" />
@@ -55,6 +56,32 @@ export const Main = () => {
             </WoodList>
           </ContainerImg>
         </Container>
+        <Modal>
+          <TitleH2>вагонка</TitleH2>
+          <div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <p>
+                Вагонка — це оздоблювальний матеріал, який використовують для
+                облицювання стін, стель і інших поверхонь як всередині
+                приміщень, так і зовні. Вона являє собою вузькі дерев'яні або
+                пластикові панелі зі з'єднанням типу "шип-паз", що дозволяє
+                легко та швидко монтувати покриття. Найчастіше вагонку
+                виготовляють з деревини хвойних порід (сосна, ялина), а також
+                липи чи осики для внутрішнього оздоблення.
+              </p>
+              <h3>Переваги вагонки:</h3>
+              <ul>
+                <li> Легкість монтажу.</li>
+                <li> Захист стін від пошкоджень.</li>
+                <li> Поліпшення тепло- та звукоізоляції.</li>
+                <li> Привабливий декоративний вигляд</li>
+              </ul>
+            </div>
+          </div>
+        </Modal>
       </WoodMain>
     </main>
   );
