@@ -1,5 +1,7 @@
 import styled from "@emotion/styled/macro";
 import { IoMdClose } from "react-icons/io";
+
+
 export const Wrapper = styled.div`
   position: fixed;
   width: 100%;
@@ -10,17 +12,19 @@ export const Wrapper = styled.div`
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
 `;
 
 export const ModalContainer = styled.div`
-  width: 100px;
+  width: 76%;
+  margin-top: 100px;
   background-color: white;
   padding: 65px 175px 65px 72px;
   position: absolute;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(1);
   position: absolute;
-  top: 50%;
+  top: 36%;
   right: 50%;
   transform: translate(50%, -50%);
 `;
@@ -33,7 +37,7 @@ export const ButtonClose = styled.button`
   border: none;
   position: absolute;
   top: 0;
-  right: 60px;
+  right: 4px;
 `;
 
 export const IconClose = styled(IoMdClose)`

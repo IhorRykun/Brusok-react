@@ -3,11 +3,22 @@ import { Footer } from "../../Footer/Footer";
 import { HeaderWood } from "./Header/Header";
 import { Main } from "./Header/Main/Main";
 
-export const WoodsPage = ({ onClick }) => {
+export const WoodsPage = ({
+  toggleBoard,
+  toggleGirder,
+  toggleLath,
+  toggleLining,
+  showBasket
+}) => {
   return (
     <>
-      <HeaderWood />
-      <Main onClick={onClick} />
+      <HeaderWood showBasket={showBasket} />
+      <Main
+        toggleBoard={toggleBoard}
+        toggleGirder={toggleGirder}
+        toggleLath={toggleLath}
+        toggleLining={toggleLining}
+      />
       <ContactForm />
       <Footer />
     </>

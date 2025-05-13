@@ -15,7 +15,12 @@ import img2 from "../../../../img/wood/2.png";
 import img3 from "../../../../img/wood/3.png";
 import img4 from "../../../../img/wood/4.png";
 import { Modal } from "../../../../Modal/Modal";
-export const Main = ({ onClick }) => {
+export const Main = ({
+  toggleBoard,
+  toggleGirder,
+  toggleLath,
+  toggleLining
+}) => {
   return (
     <main>
       <WoodMain>
@@ -36,22 +41,22 @@ export const Main = ({ onClick }) => {
               <WoodItem>
                 <Img src={img1} alt="img1" />
                 <TextTitle>Обрізна дошка</TextTitle>
-                <Button onClick={onClick}>Детальніше</Button>
+                <Button onClick={toggleBoard}>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img2} alt="img1" />
                 <TextTitle>Обрізна Рейка</TextTitle>
-                <Button onClick={onClick}>Детальніше</Button>
+                <Button onClick={toggleLath}>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img3} alt="img1" />
                 <TextTitle>Обрізний брус</TextTitle>
-                <Button>Детальніше</Button>
+                <Button onClick={toggleGirder}>Детальніше</Button>
               </WoodItem>
               <WoodItem>
                 <Img src={img4} alt="img1" />
                 <TextTitle style={{ marginLeft: 20 }}>Вагонка</TextTitle>
-                <Button>Детальніше</Button>
+                <Button onClick={toggleLining}>Детальніше</Button>
               </WoodItem>
             </WoodList>
           </ContainerImg>

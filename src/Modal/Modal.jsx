@@ -7,7 +7,9 @@ import {
 
 export const Modal = ({ children, isOpen, isClose }) => {
   const onWrapperClick = (e) => {
-    if (e.target.classList.contains("css-1n7gf50-Wrapper")) isClose();
+    if (e.target.classList.contains("css-1n7gf50-Wrapper")) {
+      isClose();
+    }
   };
 
   return (

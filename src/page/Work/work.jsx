@@ -5,10 +5,10 @@ import { HeaderWood } from "../../page/Woods/Header/Header";
 import { MainWork } from "./MainWork/MainWork";
 import { Service } from "./Service/Service";
 
-export const WorkPage = () => {
+export const WorkPage = ({ showBasket }) => {
   return (
     <>
-      <HeaderWood />
+      <HeaderWood showBasket={showBasket} />
       <MainWork />
       <Service />
       <ContactForm />

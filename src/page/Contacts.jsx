@@ -2,10 +2,10 @@ import { ContactForm } from "../ContactForm/ContactForm";
 import { Footer } from "../Footer/Footer";
 import { HeaderWood } from "./Woods/Header/Header";
 
-export const Contacts = () => {
+export const Contacts = ({ showBasket }) => {
   return (
     <>
-      <HeaderWood />
+      <HeaderWood showBasket={showBasket} />
       <h2>Контактна інформація </h2>
 
       <ContactForm />

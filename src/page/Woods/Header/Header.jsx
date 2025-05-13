@@ -16,7 +16,7 @@ import { ButtonBasket, StyledLink } from "../../../Header/Header.styled";
 import { LinkSVG } from "../../../Header/navigationIcon/navigationIcon.styled";
 import { SlBasket } from "react-icons/sl";
 import { CiMobile3 } from "react-icons/ci";
-export const HeaderWood = () => {
+export const HeaderWood = ({ showBasket }) => {
   return (
     <Header>
       <Container>
@@ -49,7 +49,7 @@ export const HeaderWood = () => {
               </LinkSVG>
             </SocialItem>
             <SocialItem>
-              <ButtonBasket type="button">
+              <ButtonBasket onClick={showBasket}>
                 <SlBasket style={{ width: 22, height: 22 }} />
               </ButtonBasket>
             </SocialItem>
