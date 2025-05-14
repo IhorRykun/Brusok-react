@@ -1,6 +1,6 @@
-import styled from "@emotion/styled/macro";
+import styled from "@emotion/styled";
 
-export const ContainerLeft = styled.div`
+export const Container = styled.div`
   width: 500px;
   margin-right: 100px;
 `;
