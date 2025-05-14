@@ -32,14 +32,13 @@ const schema = Yup.object().shape({
   email: Yup.string().email().required("Заопвніть будь ласка поле!").trim(),
   name: Yup.string().required("Заопвніть будь ласка поле!").trim(),
   tel: Yup.number()
-    .required("Обов'язково поле!")
+    .required("Заопвніть будь ласка поле!")
     .min(9, "Не коректне значення"),
   userText: Yup.string().required("Заопвніть будь ласка поле!").trim()
 });
 
 export const ContactForm = () => {
- const [togle, setTogle] = useState(false);
-
+  const [togle, setTogle] = useState(false);
 
   const OnSubmit = (values, actions) => {
     console.log(values);
