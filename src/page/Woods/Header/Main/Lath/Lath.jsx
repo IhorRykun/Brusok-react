@@ -4,6 +4,7 @@ import { ContainerFlexModal } from "../ComponentsModalWoods/FlexContainer/Contai
 import { ContainerLeftImg } from "../ComponentsModalWoods/LeftContainer/LeftContainer";
 import { RightsContainer } from "../ComponentsModalWoods/RightContainer/RightsContainer";
 import lath from "../../../../../img/wood/Modal/lath/Lath.png";
+
 export const Lath = () => {
   return (
     <Container>
