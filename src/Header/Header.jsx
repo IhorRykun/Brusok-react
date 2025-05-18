@@ -10,14 +10,14 @@ import { Logo } from "./Logo/Logo";
 import { ContainerFlexHeader } from "./Logo/Logo.styled";
 import { NavigationIcons } from "./navigationIcon/navigationIcon";
 
-export const HeaderAbout = () => {
+export const HeaderAbout = ({ showBasket }) => {
   return (
     <HeaderSection>
       <Container>
         <ContainerFlexHeader>
           <Logo />
           <DivNavigation>
-            <NavigationIcons />
+            <NavigationIcons showBasket={showBasket} />
             <Text>
               Ми надійні партнери світі пиломатеріалів. Наші матеріали ідеально
               підходять для будівництва, ремонту та оздоблення.

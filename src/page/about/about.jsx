@@ -5,10 +5,10 @@ import { Main } from "./Main/main";
 import { Service } from "./service/service";
 import { WhyWe } from "./service/WhyWe/WhyWe";
 
-export const AboutPage = () => {
+export const AboutPage = ({ showBasket }) => {
   return (
     <>
-      <HeaderAbout />
+      <HeaderAbout showBasket={showBasket} />
       <Main />
       <Service />
       <WhyWe />

@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<AboutPage />} />
+        <Route path="/" element={<AboutPage showBasket={toggleBasket} />} />
         <Route
           path="/wood"
           element={

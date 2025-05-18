@@ -6,7 +6,7 @@ import {
   ListIconsNavigation
 } from "./navigationIcon.styled";
 import { ButtonBasket } from "../Header.styled";
-export const NavigationIcons = () => {
+export const NavigationIcons = ({ showBasket }) => {
   return (
     <ListIconsNavigation>
       <ItemIconsNavigation>
@@ -15,7 +15,7 @@ export const NavigationIcons = () => {
         </LinkSVG>
       </ItemIconsNavigation>
       <ItemIconsNavigation>
-        <ButtonBasket type="button">
+        <ButtonBasket type="button" onClick={showBasket}>
           <SlBasket style={{ width: 22, height: 22 }} />
         </ButtonBasket>
       </ItemIconsNavigation>

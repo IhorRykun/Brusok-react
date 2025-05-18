@@ -1,7 +1,6 @@
 import styled from "@emotion/styled/macro";
 import { IoMdClose } from "react-icons/io";
 
-
 export const Wrapper = styled.div`
   position: fixed;
   width: 100%;
@@ -27,6 +26,9 @@ export const ModalContainer = styled.div`
   top: 36%;
   right: 50%;
   transform: translate(50%, -50%);
+  height: 520px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 `;
 
 export const ButtonClose = styled.button`
